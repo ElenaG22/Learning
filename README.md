@@ -4,20 +4,35 @@
 
 В репозитории представлены 4 диаграммы бизнес-процессов хостела в двух нотациях:
 
-| Нотация | AS IS (текущее состояние) | TO BE (целевое состояние) |
-|---------|---------------------------|---------------------------|
-| **IDF0** | ![IDF0 AS IS](hostel_as_is.drawio.png)<br>[`hostel_as_is.drawio.png`](hostel_as_is.drawio.png) | ![IDF0 TO BE](hostel_to_be.drawio.png)<br>[`hostel_to_be.drawio.png`](hostel_to_be.drawio.png) |
-| **BPMN** | ![BPMN AS IS](bpmn_as_is.drawio.png)<br>[`bpmn_as_is.drawio.png`](bpmn_as_is.drawio.png) | ![BPMN TO BE](bpmn_to_be.drawio.png)<br>[`bpmn_to_be.drawio.png`](bpmn_to_be.drawio.png) |
+<details>
+<summary><b>IDF0 (Integrated DEFinition for Function Modeling)</b></summary>
+
+| Состояние | Диаграмма | Файл |
+|-----------|-----------|------|
+| **AS IS** (текущее) | ![IDF0 AS IS](hostel_as_is.drawio.png) | [`hostel_as_is.drawio.png`](hostel_as_is.drawio.png) |
+| **TO BE** (целевое) | ![IDF0 TO BE](hostel_to_be.drawio.png) | [`hostel_to_be.drawio.png`](hostel_to_be.drawio.png) |
+
+</details>
+
+<details>
+<summary><b>BPMN (Business Process Model and Notation)</b></summary>
+
+| Состояние | Диаграмма | Файл |
+|-----------|-----------|------|
+| **AS IS** (текущее) | ![BPMN AS IS](bpmn_as_is.drawio.png) | [`bpmn_as_is.drawio.png`](bpmn_as_is.drawio.png) |
+| **TO BE** (целевое) | ![BPMN TO BE](bpmn_to_be.drawio.png) | [`bpmn_to_be.drawio.png`](bpmn_to_be.drawio.png) |
+
+</details>
 
 ---
 
 ## 📋 Описание
 
-### **IDF0 (Integrated DEFinition for Function Modeling)**
+### **IDF0**
 - **AS IS:** Текущая архитектура бизнес-процессов хостела
 - **TO BE:** Оптимизированная архитектура процессов
 
-### **BPMN (Business Process Model and Notation)**
+### **BPMN**
 - **AS IS:** Текущий процесс выселения гостей
 - **TO BE:** Улучшенный процесс выселения
 
@@ -25,9 +40,9 @@
 
 ## 🛠️ Использование
 
-- **Просмотр:** Нажмите на изображение или текстовую ссылку
+- **Просмотр:** Нажмите на название нотации выше, чтобы развернуть таблицу с диаграммами
+- **Открытие файла:** Кликните на текстовую ссылку в таблице
 - **Скачивание:** На странице файла используйте кнопку **Download**
-- **Все файлы:** `hostel_as_is.drawio.png`, `hostel_to_be.drawio.png`, `bpmn_as_is.drawio.png`, `bpmn_to_be.drawio.png`
 
 ---
 
